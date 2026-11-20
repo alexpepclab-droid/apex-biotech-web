@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 460" width="100%" height="100%">
+  <defs>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0b2239"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="peakGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="680" height="460" rx="14" fill="#ffffff" stroke="#dfecf7" stroke-width="2"/>
+  <rect x="0" y="0" width="680" height="64" rx="14" fill="url(#hdr)"/>
+  <rect x="0" y="50" width="680" height="14" fill="url(#hdr)"/>
+
+  <text x="24" y="30" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">CERTIFICATE OF ANALYSIS (ILLUSTRATIVE SAMPLE)</text>
+  <text x="24" y="49" fill="#bae6fd" font-family="Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="600">APEX BIOTECHNOLOGY CO., LTD. · QUALITY CONTROL LABORATORY</text>
+  <rect x="502" y="18" width="154" height="28" rx="14" fill="rgba(255,255,255,0.16)" stroke="rgba(255,255,255,0.35)"/>
+  <text x="579" y="36" text-anchor="middle" fill="#ffffff" font-family="Consolas, monospace" font-size="11" font-weight="700">RP-HPLC PASS · 99.4%</text>
+
+  <!-- Metadata Grid -->
+  <rect x="24" y="80" width="632" height="114" rx="10" fill="#f6fafe" stroke="#dfecf7"/>
+  <text x="40" y="104" fill="#4c647d" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700">PRODUCT NAME</text>
+  <text x="172" y="104" fill="#0b2239" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">Blue Copper Tripeptide-1 (GHK-Cu Topical Grade)</text>
+
+  <text x="40" y="128" fill="#4c647d" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700">APPEARANCE</text>
+  <text x="172" y="128" fill="#0b2239" font-family="Segoe UI, Arial, sans-serif" font-size="11.5">Vibrant Royal-Blue Lyophilized Cake / Crystal</text>
+
+  <text x="40" y="152" fill="#4c647d" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700">PURITY (RP-HPLC)</text>
+  <text x="172" y="152" fill="#059669" font-family="Consolas, monospace" font-size="12.5" font-weight="700">99.42% (220 nm UV Detector, C18 Column)</text>
+
+  <text x="40" y="176" fill="#4c647d" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700">MOISTURE (KF)</text>
+  <text x="172" y="176" fill="#0b2239" font-family="Consolas, monospace" font-size="11.5">2.1%   |   HEAVY METALS: &lt;10 ppm   |   BATCH: [REDACTED SAMPLE]</text>
+
+  <!-- Simulated RP-HPLC Chromatogram -->
+  <rect x="24" y="210" width="632" height="186" rx="10" fill="#fbfdff" stroke="#dfecf7"/>
+  <text x="40" y="232" fill="#0284c7" font-family="Consolas, monospace" font-size="11" font-weight="700">CHROMATOGRAM TRACE · MAIN PEAK RT = 11.48 MIN (AREA 99.42%)</text>
+
+  <!-- Gridlines -->
+  <line x1="56" y1="364" x2="634" y2="364" stroke="#cbd5e1" stroke-width="1.2"/>
+  <line x1="56" y1="252" x2="56" y2="364" stroke="#cbd5e1" stroke-width="1.2"/>
+  <line x1="56" y1="326" x2="634" y2="326" stroke="#edf4fa" stroke-dasharray="4 4"/>
+  <line x1="56" y1="288" x2="634" y2="288" stroke="#edf4fa" stroke-dasharray="4 4"/>
+
+  <!-- Peak Trace -->
+  <path d="M 56 364 L 220 364 L 226 359 L 232 364 L 318 364 L 330 358 L 341 262 L 352 358 L 364 364 L 460 364 L 465 360 L 470 364 L 630 364"
+        fill="url(#peakGrad)" stroke="#0284c7" stroke-width="2.3" stroke-linejoin="round"/>
+  <circle cx="341" cy="262" r="4" fill="#0ea5e9"/>
+  <text x="355" y="268" fill="#0b2239" font-family="Consolas, monospace" font-size="10.5" font-weight="700">11.482 min · 99.42%</text>
+
+  <text x="56" y="382" fill="#7f97ae" font-family="Consolas, monospace" font-size="10">0.0 min</text>
+  <text x="322" y="382" fill="#7f97ae" font-family="Consolas, monospace" font-size="10">11.5 min</text>
+  <text x="600" y="382" fill="#7f97ae" font-family="Consolas, monospace" font-size="10">22.0 min</text>
+
+  <!-- Watermark / Compliance Strip -->
+  <text x="24" y="424" fill="#4c647d" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600">Sample format shown for reference. Unredacted lot COA + MSDS issued per dispatched order.</text>
+  <text x="24" y="442" fill="#0284c7" font-family="Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="700">External Topical Cosmetic Use Only · Verified via WhatsApp (+852 4437 9192) or LINE Official</text>
+</svg>
